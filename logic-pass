@@ -1,0 +1,45 @@
+Q1/Write a method that will remove any given character from a String?
+
+class ff:
+    def jj (self,a,b):
+        l=""
+        for k in a:
+            if k!=b:
+                l+=k
+        print (l)
+a=input("Enter a string of characters")
+b=input("Enter the character you want to remove ")
+
+g=ff()
+g.jj(a,b)
+
+Q2/Write a program to find all prime numbers up to a given range
+of numbers?
+
+a=int(input("Enter the first number in the range "))
+b=int(input("Enter the last number in the range "))
+print("The prime numbers in your range are")
+for i in range(a,b):
+    if i == 2 :
+        print(i,end=" ")
+    elif i == 3:
+        print(i,end=" ")
+    else:
+        if i % 2 != 0 and i % 3 !=0:
+            if i == 1:
+                print(i,end=" ")
+            else:
+                print(i,end=" ")
+                
+Q3/write a function that count how many the given character repeated
+in a given string?
+
+def jj(a):
+    v=[]
+    for x in a:
+        v.append(x)
+    for i in v:
+        h=v.count(i)
+        print(f"there is",h,"{",i,"}","in",a,"in the string")
+a="hello world"
+jj(a)
